@@ -12,7 +12,7 @@ Este es un modelo de Among Us completamente creado en Blender. Puedes usar este 
 
 ## Previsualización
 
-![Among Us Modelo](preview.png)
+![Among Us Modelo](amongus.png)
 
 ## Instalación
 
