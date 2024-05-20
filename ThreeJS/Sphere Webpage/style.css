@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,
+html {
+    overflow-x: hidden;
+    font-family: 'montserrat', sans-serif;
+}
+
+.webgl{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+nav{
+    color: white;
+    z-index: 2;
+    position: relative;
+    padding:4rem 8rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    gap: 1rem;
+
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+}
+.title{
+    color:white;
+    position: absolute;
+    font-size: 2rem;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, 25%);
+    z-index: 2;
+}
